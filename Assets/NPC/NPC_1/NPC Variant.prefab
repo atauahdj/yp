@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: point_prefab
       value: 
       objectReference: {fileID: 6902772255456999845, guid: 288fb7d50af22bc48aaf72e49a0b16fb, type: 3}
+    - target: {fileID: 4437652318955771800, guid: 87b9d1959658eb74e808006698239752, type: 3}
+      propertyPath: police_prefab
+      value: 
+      objectReference: {fileID: 3389018173980080877, guid: 350bc439898021743ba21091ea3aed71, type: 3}
     - target: {fileID: 4885252991002603761, guid: 87b9d1959658eb74e808006698239752, type: 3}
       propertyPath: sr
       value: 
