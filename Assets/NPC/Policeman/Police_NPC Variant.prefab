@@ -140,7 +140,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   police_called: 0
   start_pos: {x: 0, y: 0, z: 0}
+  bodies: []
+  player: {fileID: 0}
+  true_body: 0
   find_body: 0
+  chase_player: 0
+  sprite_renderer: {fileID: 6178821391753944149}
 --- !u!114 &2009649525268032680
 MonoBehaviour:
   m_ObjectHideFlags: 0

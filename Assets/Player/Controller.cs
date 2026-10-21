@@ -13,12 +13,14 @@ public class Controller : MonoBehaviour
     ParentNPC pnpc;
     CharacterController cc;
     public GameObject prefab_body;
+    public GameObject Wanted_Image;
     void Start()
     {
         AP = GetComponent<Animator_player>();
         cc = GetComponent<CharacterController>();
         pnpc = FindObjectOfType<ParentNPC>();
         transform.position = new Vector3(transform.position.x,transform.position.y,-2);
+        Wanted_Image.SetActive(false);
     }
 
     Vector2 movement;
